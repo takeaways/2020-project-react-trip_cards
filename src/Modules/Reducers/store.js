@@ -5,10 +5,12 @@ import globalSaga from '../Sagas';
 
 import header from './Header';
 import list from './List';
+import loading from './Loading';
 
 const rootReducer = combineReducers({
   header,
   list,
+  loading,
 });
 
 const sagaMiddleware = createSagaMiddleware();

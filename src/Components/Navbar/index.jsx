@@ -13,9 +13,9 @@ const ROUTE_LIST = [
 function Navbar({ match }) {
   const dispatch = useDispatch();
 
-  useEffect(()=>{
-    dispatch(setCurrent(match.url))
-  },[dispatch, match.url])
+  useEffect(() => {
+    dispatch(setCurrent(match.url));
+  }, [dispatch, match.url]);
   return (
     <Styles.Container>
       <header className='sr-only'>
@@ -26,19 +26,19 @@ function Navbar({ match }) {
           return match.url === link.path ? (
             <li key={link.id} className='nav__list--item current'>
               <Link className='nav__list--item--link' to={link.path}>
-                <span>{link.label}</span>
+                <span className='nav__list--item--label'>{link.label}</span>
               </Link>
             </li>
           ) : (
             <li key={link.id} className='nav__list--item'>
               <Link className='nav__list--item--link' to={link.path}>
-                <span>{link.label}</span>
+                <span className='nav__list--item--label'>{link.label}</span>
               </Link>
             </li>
           );
         })}
       </ul>
-      <Sort/>
+      <Sort />
     </Styles.Container>
   );
 }

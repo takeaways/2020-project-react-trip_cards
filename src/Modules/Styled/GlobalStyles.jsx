@@ -21,48 +21,4 @@ export const GlobalStyle = createGlobalStyle`
         vertical-align: baseline;
         box-sizing: border-box;
     }
-
-    /* html {
-        overscroll-behavior-x: none;
-    }
-
-    body {
-        line-height: 1;
-        -ms-user-select: none;
-        -moz-user-select: -moz-none;
-        -khtml-user-select: none;
-        -webkit-user-select: none;
-        user-select: none;
-        overscroll-behavior-x: none;
-    }
-
-    html,
-    button,
-    input,
-    select,
-    textarea {
-        box-sizing: border-box;
-        outline: none;
-        font-size: 13px;
-        font-family: ${font};
-    }
-
-    button {
-        cursor: pointer;
-    }
-
-    .styling-scrollbar {
-        // IE
-        -ms-overflow-style: none;
-
-        // Webkit
-        scrollbar-width: auto;
-        -webkit-overflow-scrolling: touch;
-
-        scroll-behavior: smooth;
-    }
-
-    .hide-close-button-dialog footer {
-        display: none;
-    } */
 `

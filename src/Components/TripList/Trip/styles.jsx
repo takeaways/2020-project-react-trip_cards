@@ -23,6 +23,7 @@ export const Container = styled.div`
 
   &:hover,
   &:focus {
+    cursor: pointer;
     transform: scale3d(1.006, 1.006, 1);
     &::after {
       opacity: 1;
@@ -60,7 +61,7 @@ export const Thumbnail = styled.div`
   }
 `;
 export const Contents = styled.div`
-  height: 143px;
+  height: 139px;
   padding: 10px 16px 16px 16px;
   background-color: #ffffff;
 
@@ -82,7 +83,8 @@ export const Title = styled.h1`
   color: rgba(0, 0, 0, 0.8);
   font-size: 15px;
   width: 218px;
-  height: 44px;
+  height: 30px;
+  display:inline-block;
 
   overflow: hidden;
   text-overflow: ellipsis;
@@ -96,5 +98,9 @@ export const Footer = styled.div`
   flex-direction: column;
 `;
 
-export const Point = styled.span``;
-export const Price = styled.strong``;
+export const Point = styled.span`
+  display:block;
+`;
+export const Price = styled.strong`
+  display:block;
+`;

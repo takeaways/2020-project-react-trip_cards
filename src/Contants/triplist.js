@@ -4,7 +4,8 @@ const list = [
     img:
       'https://d2ur7st6jjikze.cloudfront.net/share/thumbnail/thumbnail-1.jpg',
     category: ['한인민박', '제주도'],
-    title: '1[동쪽/펜션] 북촌리:멤버 #독채 #자쿠지 #바베큐',
+    title:
+      '1[동쪽/펜션] 북촌리:멤버 #독채 #자쿠지 #바베큐#독채 #자쿠지 #바베큐#독채 #자쿠지 #바베큐#독채 #자쿠지 #바베큐',
     price: 110000,
     point: 3,
     reviews: 13,
@@ -70,7 +71,8 @@ const list = [
     img:
       'https://d2ur7st6jjikze.cloudfront.net/share/thumbnail/thumbnail-7.jpg',
     category: ['한인민박', '제주도'],
-    title: '7[동쪽/펜션] 북촌리:멤버 #독채 #자쿠지 #바베큐',
+    title:
+      '7[동쪽/펜션] 북촌리:멤버 #독채 #자쿠지 #바베큐7[동쪽/펜션] 북촌리:멤버 ',
     price: 110000,
     point: 3,
     reviews: 13,

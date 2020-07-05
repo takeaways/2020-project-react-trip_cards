@@ -1,17 +1,17 @@
 const initialState = {
   page: 0,
   trips: [
-    {
-      id: 1,
-      img:
-        'https://d2ur7st6jjikze.cloudfront.net/share/thumbnail/thumbnail-1.jpg',
-      category: ['한인민박', '제주도'],
-      title: '[동쪽/펜션] 북촌리:멤버 #독채 #자쿠지 #바베큐',
-      price: 120000,
-      point: 3,
-      reviews: 13,
-      wish: true,
-    },
+    // {
+    //   id: 1,
+    //   img:
+    //     'https://d2ur7st6jjikze.cloudfront.net/share/thumbnail/thumbnail-1.jpg',
+    //   category: ['한인민박', '제주도'],
+    //   title: '[동쪽/펜션] 북촌리:멤버 #독채 #자쿠지 #바베큐',
+    //   price: 120000,
+    //   point: 3,
+    //   reviews: 13,
+    //   wish: true,
+    // },
   ],
 };
 

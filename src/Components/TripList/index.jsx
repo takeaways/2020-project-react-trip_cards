@@ -47,27 +47,40 @@ export default function TripList({ trips = [] }) {
     }
   }, [scrollLoactions, current]);
 
+  function returnWish(trips=[]){
+    const wishItem = trips.map(trip => (
+      trip.wish && (
+        <li className='trip__list--item' key={trip.id}>
+          <Trip trip={trip} handleClickWish={handleClickWish} />
+        </li>
+      )
+    ))
+
+    const check = wishItem.filter(item=>!!item);
+    if(check.length !== 0){
+      return wishItem
+    }
+    return (
+      <div className="no-items">
+        <strong>위시 리스트가 없습니다.</strong>
+      </div>
+    )
+  }
+  function returnList(trips=[]){
+    return trips.map(trip=>(
+      <li className='trip__list--item' key={trip.id}>
+        <Trip trip={trip} handleClickWish={handleClickWish} />
+      </li>
+    ))
+  }
+  
+
   return (
     <Styles.Container ref={refContainer}>
-      <ul className='trip__list'>
-        {trips.map((trip) => {
-          if (current.includes('/wish')) {
-            return (
-              trip.wish && (
-                <li className='trip__list--item' key={trip.id}>
-                  <Trip trip={trip} handleClickWish={handleClickWish} />
-                </li>
-              )
-            );
-          } else {
-            return (
-              <li className='trip__list--item' key={trip.id}>
-                <Trip trip={trip} handleClickWish={handleClickWish} />
-              </li>
-            );
-          }
-        })}
-      </ul>
+      {trips.length > 0 && (<ul className='trip__list'>
+        {current.includes("/wish") ? returnWish(trips) : returnList(trips)}
+      </ul>)}
+      
     </Styles.Container>
   );
 }

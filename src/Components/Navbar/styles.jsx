@@ -7,7 +7,7 @@ export const Container = styled.div`
   right: 0;
   left: 0;
 
-  background-color: var(--royal-blue);
+  background-color: var(--white);
   height: 100px;
 
   display: flex;
@@ -15,14 +15,14 @@ export const Container = styled.div`
   align-items: center;
 
   & .nav__list--item--label {
+    font-size:var(--font-regular);
     color: rgba(0, 0, 0, 0.5);
   }
 
   & .current {
-    opacity: 0.8;
-    box-shadow: 10px 5px 5px var(--black-pearl);
+    border-bottom:3px solid #2B96EC;
     & .nav__list--item--label {
-      color: white;
+      color: #152005;
     }
   }
 
@@ -34,16 +34,19 @@ export const Container = styled.div`
   }
   & .nav__list--item {
     display: inline-block;
-    background-color: var(--light-blue);
     width: 100px;
     height: 35px;
     text-align: center;
     margin-left: 10px;
     line-height: 35px;
-    border-radius: 5px;
   }
+  & .nav__list--item:hover {
+    display: inline-block;
+    border-bottom:3px solid rgba(43, 150, 236,0.6);
+  }
+
   & .nav__list--item--link {
-    color: white;
+    color: rgb(132, 140, 148);
     text-decoration: none;
     display: block;
   }

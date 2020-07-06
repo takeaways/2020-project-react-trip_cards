@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/nomadGeonilJang/trip-cards/static/css/main.80843cba.chunk.css",
+    "main.js": "/nomadGeonilJang/trip-cards/static/js/main.e2ac243f.chunk.js",
+    "main.js.map": "/nomadGeonilJang/trip-cards/static/js/main.e2ac243f.chunk.js.map",
+    "runtime-main.js": "/nomadGeonilJang/trip-cards/static/js/runtime-main.2482c067.js",
+    "runtime-main.js.map": "/nomadGeonilJang/trip-cards/static/js/runtime-main.2482c067.js.map",
+    "static/js/2.0e2ad619.chunk.js": "/nomadGeonilJang/trip-cards/static/js/2.0e2ad619.chunk.js",
+    "static/js/2.0e2ad619.chunk.js.map": "/nomadGeonilJang/trip-cards/static/js/2.0e2ad619.chunk.js.map",
+    "index.html": "/nomadGeonilJang/trip-cards/index.html",
+    "precache-manifest.71a986ab5159c1aaab5b23e0232fa182.js": "/nomadGeonilJang/trip-cards/precache-manifest.71a986ab5159c1aaab5b23e0232fa182.js",
+    "service-worker.js": "/nomadGeonilJang/trip-cards/service-worker.js",
+    "static/css/main.80843cba.chunk.css.map": "/nomadGeonilJang/trip-cards/static/css/main.80843cba.chunk.css.map",
+    "static/js/2.0e2ad619.chunk.js.LICENSE.txt": "/nomadGeonilJang/trip-cards/static/js/2.0e2ad619.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2482c067.js",
+    "static/js/2.0e2ad619.chunk.js",
+    "static/css/main.80843cba.chunk.css",
+    "static/js/main.e2ac243f.chunk.js"
+  ]
+}

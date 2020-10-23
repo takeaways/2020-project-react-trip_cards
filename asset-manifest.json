@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/nomadGeonilJang/trip-cards/static/css/main.80843cba.chunk.css",
-    "main.js": "/nomadGeonilJang/trip-cards/static/js/main.24b1171f.chunk.js",
-    "main.js.map": "/nomadGeonilJang/trip-cards/static/js/main.24b1171f.chunk.js.map",
-    "runtime-main.js": "/nomadGeonilJang/trip-cards/static/js/runtime-main.2482c067.js",
-    "runtime-main.js.map": "/nomadGeonilJang/trip-cards/static/js/runtime-main.2482c067.js.map",
-    "static/js/2.0a0db183.chunk.js": "/nomadGeonilJang/trip-cards/static/js/2.0a0db183.chunk.js",
-    "static/js/2.0a0db183.chunk.js.map": "/nomadGeonilJang/trip-cards/static/js/2.0a0db183.chunk.js.map",
-    "index.html": "/nomadGeonilJang/trip-cards/index.html",
-    "precache-manifest.5fc2d996a2fd1c19c19af6534fc27b5f.js": "/nomadGeonilJang/trip-cards/precache-manifest.5fc2d996a2fd1c19c19af6534fc27b5f.js",
-    "service-worker.js": "/nomadGeonilJang/trip-cards/service-worker.js",
-    "static/css/main.80843cba.chunk.css.map": "/nomadGeonilJang/trip-cards/static/css/main.80843cba.chunk.css.map",
-    "static/js/2.0a0db183.chunk.js.LICENSE.txt": "/nomadGeonilJang/trip-cards/static/js/2.0a0db183.chunk.js.LICENSE.txt"
+    "main.css": "/nomadGeonilJang/2020-project-react-trip_cards/static/css/main.80843cba.chunk.css",
+    "main.js": "/nomadGeonilJang/2020-project-react-trip_cards/static/js/main.24b1171f.chunk.js",
+    "main.js.map": "/nomadGeonilJang/2020-project-react-trip_cards/static/js/main.24b1171f.chunk.js.map",
+    "runtime-main.js": "/nomadGeonilJang/2020-project-react-trip_cards/static/js/runtime-main.fa169924.js",
+    "runtime-main.js.map": "/nomadGeonilJang/2020-project-react-trip_cards/static/js/runtime-main.fa169924.js.map",
+    "static/js/2.1c615b61.chunk.js": "/nomadGeonilJang/2020-project-react-trip_cards/static/js/2.1c615b61.chunk.js",
+    "static/js/2.1c615b61.chunk.js.map": "/nomadGeonilJang/2020-project-react-trip_cards/static/js/2.1c615b61.chunk.js.map",
+    "index.html": "/nomadGeonilJang/2020-project-react-trip_cards/index.html",
+    "precache-manifest.32525fa29611fc7115aabcb3a7c672ec.js": "/nomadGeonilJang/2020-project-react-trip_cards/precache-manifest.32525fa29611fc7115aabcb3a7c672ec.js",
+    "service-worker.js": "/nomadGeonilJang/2020-project-react-trip_cards/service-worker.js",
+    "static/css/main.80843cba.chunk.css.map": "/nomadGeonilJang/2020-project-react-trip_cards/static/css/main.80843cba.chunk.css.map",
+    "static/js/2.1c615b61.chunk.js.LICENSE.txt": "/nomadGeonilJang/2020-project-react-trip_cards/static/js/2.1c615b61.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.2482c067.js",
-    "static/js/2.0a0db183.chunk.js",
+    "static/js/runtime-main.fa169924.js",
+    "static/js/2.1c615b61.chunk.js",
     "static/css/main.80843cba.chunk.css",
     "static/js/main.24b1171f.chunk.js"
   ]

@@ -1,6 +1,8 @@
 # SPA Card Board with React
 ### 요약
-- React를 사용하여 여행 정보 카드를 보여주는 SPA 웹 애플리케이션 구현.
+- React를 사용하여 여행 정보 카드를 보여주는 SPA 웹(Infinite Scroll) 애플리케이션 구현. 
+
+![project_picture](./public/images/shot.png)
 
 ## 1. 개발환경
 
